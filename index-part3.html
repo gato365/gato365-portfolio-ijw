@@ -4,10 +4,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Test Thing</title>
         <style>
+         #take1 {
+
+}
+
+#take1 section {
+    margin-bottom: 2px;
+    display: flex;
+}
+
+#take1 section div:nth-child(1) {
+    padding: 10px;
+    background-color: lightpink;
+    width: 150px;
+    border-right: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+#take1 section div:nth-child(2) {
+    background-color: aqua;
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
+.row-1{
+    height: 15vh;
+}
+.row-2{
+    height: 80vh;
+
+
+}
+
+.row-3{
+    height: auto;
+}
 
         </style>
     </head>
         <body>
-   
+            <div id="take1">
+                <section class="row-1">
+                    <div>About Me</div>
+                    <div>I am a person</div>
+                </section>
+                <section class="row-2">
+                    <div>Projects</div>
+                    <div>
+                        <ul>
+                            <li>Project 1</li>
+                            <li>Project 2</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="row-3">
+                    <div>Other Stuff</div>
+                    <div>Actual content</div>
+                </section>
+            </div>
         </body>
 </html>

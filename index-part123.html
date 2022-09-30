@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>index-part123</title>
+        <style>
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+    .box {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+    .box .row {
+        border: 1px dotted #0313fc;
+    }
+    .box .row.header {
+        flex: 0 1 auto;
+    }
+    .box .row.nav {
+        flex: 0 1 auto;
+    }
+      .box .row.content {
+        flex: 1 1 auto;
+    }
+    .box .row.footer {
+        flex: 0 1 40px;
+    }
+
+    .navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+#take1 {
+
+}
+
+#take1 section {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#take1 section div:nth-child(1) {
+    padding: 10px;
+    background-color: lightpink;
+    width: 150px;
+    border-right: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#take1 section div:nth-child(2) {
+    background-color: aqua;
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+    </style>   
+    </head>
+        <body>
+            <div class="box">
+                <div class="row header">
+                  <!-- <p>header (sized to content)</p> -->
+
+                  <ul class="navigation">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                  </ul>
+
+
+
+                </div>
+                <div class="row nav">
+                    <p>nav (fill image)</p>
+                  </div>
+                <div class="row content">
+                    <div id="take1">
+                        <section>
+                            <div>About Me</div>
+                            <div>I am a person</div>
+                        </section>
+                        <section>
+                            <div>Projects</div>
+                            <div>
+                                <ul>
+                                    <li>Project 1</li>
+                                    <li>Project 2</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section>
+                            <div>Other Stuff</div>
+                            <div>Actual content</div>
+                        </section>
+                    </div>
+
+
+
+                </div>
+                <div class="row footer">
+                  <p>footer (fixed height)</p>
+                </div>
+              </div>
+        </body>
+</html>
