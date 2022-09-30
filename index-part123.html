@@ -26,9 +26,7 @@
       .box .row.content {
         flex: 1 1 auto;
     }
-    .box .row.footer {
-        flex: 0 1 40px;
-    }
+
 
     .navigation {
   display: flex;
@@ -73,9 +71,7 @@
   }
 }
 
-#take1 {
 
-}
 
 #take1 section {
     margin-bottom: 10px;
@@ -99,6 +95,19 @@
     padding: 20px;
     margin-left: 20px;
 }
+.row-1{
+    height: 15vh;
+}
+.row-2{
+    height: 80vh;
+
+
+}
+
+.row-3{
+    height: auto;
+}
+
 
     </style>   
     </head>
@@ -122,11 +131,11 @@
                   </div>
                 <div class="row content">
                     <div id="take1">
-                        <section>
+                        <section class="row-1">
                             <div>About Me</div>
                             <div>I am a person</div>
                         </section>
-                        <section>
+                        <section class="row-2">
                             <div>Projects</div>
                             <div>
                                 <ul>
@@ -135,7 +144,7 @@
                                 </ul>
                             </div>
                         </section>
-                        <section>
+                        <section class="row-3">
                             <div>Other Stuff</div>
                             <div>Actual content</div>
                         </section>
@@ -144,9 +153,7 @@
 
 
                 </div>
-                <div class="row footer">
-                  <p>footer (fixed height)</p>
-                </div>
+
               </div>
         </body>
 </html>
