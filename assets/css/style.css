@@ -18,6 +18,16 @@ html, body {
 /*                                                                  */
 /*                                                                  */
 /*                                                                  */
+
+.title-boxes{
+    background-color: #98CAC9;
+    width: 100px;
+    color: #163055;
+    display: flex;
+    justify-content: center;
+    /* justify-self: center; */
+
+}
 .box {
     display: flex;
     flex-flow: column;
@@ -36,7 +46,9 @@ html, body {
     flex: 1 1 auto;
 }
 
-
+.row-header{
+    background: #163055;
+}
 
 
 .navigation {
@@ -46,7 +58,7 @@ justify-content: flex-end;
 
 list-style: none;
 margin: 0; 
-background: #163055;
+/* background: #163055; */
 }
 
 .navigation a {

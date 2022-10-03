@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>index-part1234</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+ 
+
+        <style>
+            .fancy {
+  position: relative;
+  background-color: #ffc;
+  padding: 2rem;
+  text-align: center;
+  max-width: 200px;
+}
+
+.fancy::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  right: 5px;
+  width: 50%;
+  top: 80%;
+  max-width: 200px;
+
+  box-shadow: 0px 13px 10px black;
+  transform: rotate(4deg);
+}
+        </style>
+    </head>
+
+    <body>
+
+        <div class="fancy">Hi! I want to be fancy.</div>
+    </body>
+</html>
