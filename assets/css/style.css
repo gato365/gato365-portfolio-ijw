@@ -265,6 +265,19 @@ height: auto;
     text-align: center;
     
 }
+#big-proj-title{
+    /* position: absolute; */
+    background-color: #98CAC9;
+    color: #163055;
+    /* top: 10px;
+    right: 40px; */
+    width: 100px;
+    height: 37px;
+    border: solid #163055 2px;
+    font-size: 5px;
+    text-align: center;
+    
+}
 
 /*                                                                  */
 /*                                                                  */
