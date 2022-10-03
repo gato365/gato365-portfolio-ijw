@@ -19,7 +19,7 @@ html, body {
 /*                                                                  */
 /*                                                                  */
 
-.title-boxes{
+#title-boxes{
     background-color: #98CAC9;
     width: 100px;
     color: #163055;
@@ -110,11 +110,24 @@ border-bottom: none;
 /*                                                                  */
 /*                                                                  */
 #row-nav{
-background-color: #EDEDF7;
-margin-top: 10px;
-margin-bottom: 10px;
+    position: relative;
+    background-color: #EDEDF7;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
+#nav-title{
+    position: absolute;
+    background-color: #98CAC9;
+    color: #163055;
+    top: 2px;
+    right: 40px;
+    width: 200px;
+    height: 75px;
+    border: solid #163055 2px;
+    font-size: 27px;
+    text-align: center;
+    
+}
 
 /*                                                                  */
 /*                                                                  */
