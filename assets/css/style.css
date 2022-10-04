@@ -185,7 +185,7 @@ padding: 20px;
 margin-left: 20px;
 }
 .row-1{
-height: 20vh;
+height: 33vh;
 }
 .row-2{
 height: 100vh;
@@ -218,7 +218,7 @@ height: auto;
 
     /* Then we define how is distributed the remaining space */
     justify-content: space-around;
-
+    
     padding: 0;
     margin: 0;
     list-style: none;
@@ -226,19 +226,19 @@ height: auto;
 
 
 .big-proj {
-    background: blue;
+    display: flex;
+    align-items: flex-start;
+    background-color: blue;
     padding: 5px;
     width: 750px;
-    height: 150px;
+    height: 200px;
     margin-top: 10px;
-    border-right: solid blue 10px;
-    /* line-height: 150px; */
-    color: white;
     font-weight: bold;
     text-align: center;
 }
 
 .small-proj {
+
     background: tomato;
     /* padding: 1px; */
     width: 350px;
@@ -257,7 +257,7 @@ height: auto;
     width: 100px;
     height: 37px;
     border: solid #163055 0.5px;
-    font-size: 20px;   
+    font-size: 15px;   
     text-align: left;
 }
 
