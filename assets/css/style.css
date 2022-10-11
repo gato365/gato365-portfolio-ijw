@@ -239,7 +239,6 @@ height: auto;
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
-    opacity: 0.5;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -253,7 +252,6 @@ height: auto;
     width: 350px;
     height: 150px;
     margin-top: 10px;
-    opacity: 0.5;
     color: white;
     font-weight: bold;
     font-size: 3em;
@@ -261,11 +259,14 @@ height: auto;
     align-content: center;
     flex-wrap: wrap;
 }
-
-.small-proj-hover:hover{
-
+.small-proj:hover, .big-proj:hover{
     opacity: 0.5;
 }
+
+/* .proj-hover:hover{
+
+    opacity: 0.5;
+} */
 
 
 .proj-title{
