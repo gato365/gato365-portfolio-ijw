@@ -118,8 +118,11 @@ border-bottom: none;
 /*                                                                  */
 #row-nav{
     position: relative;
-    background-color: #EDEDF7;
+    /* background-color: #EDEDF7; */
+    background-image: url("../images/nav-bar-horizontal.jpg");
     margin-top: 10px;
+    height: 100px;
+    width:auto;
     margin-bottom: 10px;
 }
 #nav-title{
@@ -229,25 +232,39 @@ height: auto;
     display: flex;
     align-items: flex-start;
     background-color: blue;
+    background-image: url("../images/logo2021_close.PNG");
     padding: 5px;
     width: 750px;
     height: 200px;
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
+    opacity: 0.5;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .small-proj {
-
+    /* We first create a flex layout context */
+    display: flex;
+    align-items: flex-end;
     background: tomato;
     /* padding: 1px; */
     width: 350px;
     height: 150px;
     margin-top: 10px;
+    opacity: 0.5;
     color: white;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.small-proj-hover:hover{
+
+    opacity: 0.5;
 }
 
 
