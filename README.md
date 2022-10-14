@@ -111,6 +111,9 @@ Since we have 2 have the capacity to hover over all the boxes we We’re going t
 
 # $$\textcolor{red}{START HERE}$$
 
+<img src = "/assets/images/project_media.jpg" width="25%" height="45%"> 
+<img src = "/assets/images/about_me_media.jpg" width="25%" height="45%"> 
+
 process - Develop Flexbox Thought and code
 
 # Process of Programming
