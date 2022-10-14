@@ -5,19 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About Me FLexbox</title>
     <style>
+        #take1 section {
+            background-color: #EDEDF7;
+            margin-bottom: 10px;
+            display: flex;
 
+        }
+
+
+
+        #take1 section div:nth-child(1) {
+            padding: 10px;
+            /* background-color: lightpink; */
+            width: 150px;
+            border-right: 4px solid black;
+            display: flex;
+            justify-content: right;
+            align-items: baseline;
+            flex-shrink: 0;
+            /* font-size: 35px; */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #take1 section div:nth-child(2) {
+            /* background-color: aqua; */
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 20px;
+        }
+
+        .row-1 {
+            height: 33vh;
+        }
+
+        .row-2 {
+            height: 120vh;
+
+
+        }
+
+        .row-3 {
+            height: auto;
+        }
     </style>
 </head>
 
 <body>
 
-
-
+    
+    
 
     <div class="row content">
         <div id="take1">
             <section class="row-1">
                 <div id="about-me-row">About Me</div>
+                <img src= "eman.jpg" alt="Girl in a jacket" width="125" height="155">
                 <p>Dr. Williams is dedicated to changing the lives of all his students by initially believing in their
                     ability to learn data science, machine learning, and statistics. He is also the chief curriculum
                     developer for the math worksheets found in GATO365 Math Boot Camp. He spends most of his time
