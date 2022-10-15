@@ -188,10 +188,10 @@ padding: 20px;
 margin-left: 20px;
 }
 .row-1{
-height: 33vh;
+height: 40vh;
 }
 .row-2{
-height: 100vh;
+height: 175vh;
 
 
 }
@@ -232,10 +232,10 @@ height: auto;
     display: flex;
     align-items: flex-start;
     background-color: blue;
-    background-image: url("../images/logo2021_close.PNG");
+    background-image: url("../images/mlr.PNG");
     padding: 5px;
-    width: 750px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
@@ -249,8 +249,8 @@ height: auto;
     align-items: flex-end;
     background: tomato;
     /* padding: 1px; */
-    width: 350px;
-    height: 150px;
+    width: 450px;
+    height: 200px;
     margin-top: 10px;
     color: white;
     font-weight: bold;
