@@ -14,26 +14,25 @@
 
 
 
-        #take1 section div:nth-child(1) {
+        /* #take1 section div:nth-child(1) {
             padding: 10px;
-            /* background-color: lightpink; */
+            
             width: 150px;
             border-right: 4px solid black;
             display: flex;
             justify-content: right;
             align-items: baseline;
             flex-shrink: 0;
-            /* font-size: 35px; */
+            
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         #take1 section div:nth-child(2) {
-            /* background-color: aqua; */
             flex-grow: 1;
             padding: 20px;
             margin-left: 20px;
-        }
-
+        } 
+        
         .row-1 {
             height: 50vh;
         }
@@ -56,8 +55,52 @@
             display: flex;
             flex-direction: column;
         }
+ */
 
 
+
+
+ #take1 section div:nth-child(1) {
+            padding: 10px;
+            
+            width: 150px;
+            border-right: 4px solid black;
+            display: flex;
+            justify-content: right;
+            align-items: baseline;
+            flex-shrink: 0;
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #take1 section div:nth-child(2) {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 20px;
+        } 
+        
+        .row-1 {
+            height: 50vh;
+        }
+
+        .row-2 {
+            height: 160vh;
+
+
+        }
+
+        .row-3 {
+            height: auto;
+        }
+
+        #img-self {
+            margin-right: 10px;
+        }
+
+        .about-me-paragraphs-container {
+            display: flex;
+            flex-direction: column;
+        }
 
 
         @media screen and (min-width: 800px) {
@@ -83,6 +126,7 @@
             <section class="row-1">
                 <div id="about-me-row">About Me</div>
 
+                <div class = 'media-con'>
                     <div id="img-self"><img src="eman.jpg" alt="eman-rocking-it" width="125" height="175"> </div>
 
                     <div class="about-me-paragraphs-container">
@@ -106,6 +150,7 @@
                             always a need for passionate teachers.
                         </p>
                     </div>
+                </div>
                 </section>
 
 </body>
