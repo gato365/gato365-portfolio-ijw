@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Flex for All</title>
     <style>
+        .flex-container-outer-big {
+            display: flex;
+            flex-flow: column;
+        }
+
+        #flex-container-outer {
+
+
+        }
+
+
         .flex-container-small {
             display: flex;
             flex-flow: wrap;
@@ -23,7 +34,7 @@
             height: 300px;
         }
 
-        .small-box{
+        .small-box {
             margin: auto;
             border: 5px solid blue;
             background-color: rgba(0, 0, 255, 0.205);
@@ -34,18 +45,24 @@
 </head>
 
 <body>
-    <ul class='big-box'>
 
-    </ul>
-    
-    
+    <div class = 'flex-container-outer-big' id = 'flex-container-outer'>
+
+
+        <ul class='big-box'>
+
+        </ul>
+
+
         <ul class='big-box flex-container-small'>
             <li class='small-box'></li>
             <li class='small-box'></li>
             <li class='small-box'></li>
             <li class='small-box'></li>
         </ul>
-    
+
+    </div>
+
 </body>
 
 </html>
