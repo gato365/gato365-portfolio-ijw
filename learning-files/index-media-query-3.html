@@ -6,8 +6,13 @@
     <title>Flex for All</title>
     <style>
         .flex-container-small {
-
+            display: flex;
+            flex-flow: column wrap;
+            padding: 0;
+            margin: 0;
+            list-style: none;
         }
+
         .big-box {
             margin: auto;
             padding: 10px;
@@ -16,9 +21,11 @@
             width: 300px;
             height: 300px;
         }
+
         .small-box{
             border: 5px solid blue;
             background-color: rgba(0, 0, 255, 0.205);
+            margin-top: 10px;
             width: 130px;
             height: 100px;
         }
@@ -27,15 +34,14 @@
 
 <body>
 
-    <div class='big-box flex-container-small'>
-        <ul>
-            <li class = 'small-box'></li>
-            <li class = 'small-box'></li>
-            <li class = 'small-box'></li>
-            <li class = 'small-box'></li>
+    
+        <ul class='big-box flex-container-small'>
+            <li class='small-box'></li>
+            <li class='small-box'></li>
+            <li class='small-box'></li>
+            <li class='small-box'></li>
         </ul>
-    </div>
-
+    
 </body>
 
 </html>
