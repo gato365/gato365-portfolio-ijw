@@ -6,21 +6,34 @@
     <title>Flex for All</title>
     <style>
         .flex-container-small {
+
+        }
+        .big-box {
             margin: auto;
-            width: 60%;
+            padding: 10px;
             border: 5px solid rgb(255, 0, 0);
             background-color: rgba(255, 0, 0, 0.32);
-            padding: 10px;
             width: 300px;
             height: 300px;
+        }
+        .small-box{
+            border: 5px solid blue;
+            background-color: rgba(0, 0, 255, 0.205);
+            width: 130px;
+            height: 100px;
         }
     </style>
 </head>
 
 <body>
 
-    <div class='flex-container-small'>
-        Some words
+    <div class='big-box flex-container-small'>
+        <ul>
+            <li class = 'small-box'></li>
+            <li class = 'small-box'></li>
+            <li class = 'small-box'></li>
+            <li class = 'small-box'></li>
+        </ul>
     </div>
 
 </body>
