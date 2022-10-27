@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Flex for All</title>
     <style>
+        body{
+            height: 100%;
+        }
         .flex-container-outer-big {
             display: flex;
             flex-flow: column;
@@ -52,12 +55,8 @@
 
         @media screen and (max-width: 980px) {
 
-            .flex-container-outer-big {
-                display: flex;
-                flex-flow: column;
-            }
-
-            .big-box {
+    
+            .small-box {
                 margin: auto;
                 border: 5px solid rgb(255, 0, 0);
                 padding: 10px;
@@ -66,8 +65,6 @@
                 width: 160px;
                 height: 200px;
             }
-
-
 
             .flex-container-small {
                 display: flex;
@@ -88,6 +85,10 @@
 
 
             }
+            .flex-container-outer-big {
+                display: flex;
+                flex-flow: column;
+            }
 
             .small-box {
                 margin: auto;
@@ -97,10 +98,11 @@
                 height: 60px;
             }
 
-            #big-box-smaller {
+            #big-box-specs {
                 margin: auto;
                 width: 160px;
                 height: 400px;
+                margin-top: 20px;
             }
 
         }
@@ -117,7 +119,7 @@
         </ul>
 
 
-        <ul class='big-box flex-container-small' id='big-box-smaller'>
+        <ul class='big-box flex-container-small' id='big-box-specs'>
             <li class='small-box'></li>
             <li class='small-box'></li>
             <li class='small-box'></li>
