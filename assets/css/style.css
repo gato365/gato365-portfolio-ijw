@@ -206,7 +206,8 @@ body {
 }
 
 .row-3 {
-    height: auto;
+    /* height: auto; */
+    min-height: 40vh;
 }
 
 
